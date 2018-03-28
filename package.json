@@ -1,5 +1,5 @@
 {
-    "name": "gitbook-plugin-download-pdf2",
+    "name": "gitbook-plugin-get-pdf-link",
     "version": "1.0.0",
     "description": "This is a Gitbook plugin for adding a download pdf link in the front-facing toolbar.",
     "engines": {
@@ -18,15 +18,8 @@
                 "type": [
                     "string"
                 ]
-            },
-            "multilingual": {
-                "default": false,
-                "title": "Using multiple languages.",
-                "type": [
-                    "boolean"
-                ]
             }
         }
     },
-    "homepage": "https://github.com/show0k/gitbook-plugin-download-pdf2"
+    "homepage": "https://github.com/okon3/gitbook-plugin-get-pdf-link"
 }
