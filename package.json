@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-get-pdf-link",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "This is a Gitbook plugin for adding a download pdf link in the front-facing toolbar.",
     "engines": {
         "gitbook": ">2.5.0"
