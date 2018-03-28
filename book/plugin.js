@@ -8,8 +8,7 @@ require(["gitbook", "jQuery"], function (gitbook, $) {
       icon: 'fa fa-pdf',
       text: label,
       onClick: function () {
-        var filepath = gitbook.state.filepath
-        window.open(base + filepath)
+        window.open(base)
       }
     })
   })
