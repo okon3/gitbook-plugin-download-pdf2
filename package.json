@@ -1,0 +1,32 @@
+{
+    "name": "gitbook-plugin-download-pdf2",
+    "version": "1.0.0",
+    "description": "This is a Gitbook plugin for adding a download pdf link in the front-facing toolbar.",
+    "engines": {
+        "gitbook": ">2.5.0"
+    },
+    "gitbook": {
+        "properties": {
+            "base": {
+                "required": true,
+                "title": "Base for the PDF button redirection (with or without trailing / is up to you and not automatically added)",
+                "type": "string"
+            },
+            "label": {
+                "default": "Download PDF",
+                "title": "Label for the PDF button",
+                "type": [
+                    "string"
+                ]
+            },
+            "multilingual": {
+                "default": false,
+                "title": "Using multiple languages.",
+                "type": [
+                    "boolean"
+                ]
+            }
+        }
+    },
+    "homepage": "https://github.com/show0k/gitbook-plugin-download-pdf2"
+}
